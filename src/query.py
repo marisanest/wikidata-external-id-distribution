@@ -34,7 +34,6 @@ class ExternalIdsQuery(Query):
         super().__init__(ExternalIdsQuery.QUERY)
 
     def extract(self):
-        print(self.result)
         if self.result is None:
             raise TypeError('result')
         return [
