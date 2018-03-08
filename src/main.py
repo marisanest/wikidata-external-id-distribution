@@ -1,4 +1,4 @@
 from distribution import ExternalIdDistribution
 
-ExternalIdDistribution().calculate().plot()
+ExternalIdDistribution().calculate().save().plot()
 

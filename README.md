@@ -1,6 +1,6 @@
 # wikidata-external-id-distribution
 
-Tool to calculate and plot the external-id distribution on wikidata.
+Tool to calculate the external-id distribution on Wikidata. Result is a pdf bar chart and a csv file including the top 50 external-ids.
 
 ## Installation
 
@@ -22,6 +22,12 @@ You can than find the plot as pdf file in
 $ cd plots/
 ```
 
+and the distribution as csv in
+
+```
+$ cd csv/
+```
+
 ## License
 
 The source code is licensed under the terms of the GNU GENERAL PUBLIC LICENSE Version 3.
@@ -29,6 +35,6 @@ The source code is licensed under the terms of the GNU GENERAL PUBLIC LICENSE Ve
 ## Requirements
 * requests
 * matplotlib
-* operator
 * pandas
+* os
 

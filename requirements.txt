@@ -1,4 +1,4 @@
 requests
 matplotlib
-operator
 pandas
+os
